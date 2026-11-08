@@ -42,9 +42,3 @@ pip install -r ../tools/requirements.txt gymnasium torch matplotlib
 python train.py        # train the DQN baseline
 python visualize.py    # watch a policy run on the map
 ```
-
-## My role
-
-I led the project: built the simulator site and automated Codabench leaderboard, worked on the environment, scoring, and competition infrastructure, wrote the competition rules, and handled sponsorship outreach (including the Jane Street sponsorship) and promotion.
-
-**Contributors:** Yash Korgaonkar, Pinak Unawane, Kunj Parikh
