@@ -1,4 +1,4 @@
-# Project OmniBus — School Bus Routing RL Competition
+# Project OmniBus: School Bus Routing RL Competition
 
 **Live site:** [competition.bcamlc.com](https://competition.bcamlc.com) · Hosted by the [BCA Machine Learning Club](https://bcamlc.com) · Sponsored by Jane Street
 
@@ -29,7 +29,7 @@ Static planners like OR-Tools build good plans that break under these disruption
 ## Formulation (short version)
 
 - **Observation:** clock time, active bus, every bus's position/occupancy/status, every student's location/school/pickup window, live congestion and closures, and an action mask
-- **Action:** one discrete choice per idle bus — pick up student *i*, deliver to one of three schools, wait 5 minutes, or return to depot
+- **Action:** one discrete choice per idle bus: pick up student *i*, deliver to one of three schools, wait 5 minutes, or return to depot
 - **Reward:** points for every student delivered (more if on time), minus penalties for lateness, missed students, miles driven, buses used, rides over 40 minutes, and the variance of ride times across neighborhoods
 
 Full rules and scoring are in [`sbrp_rl/README.md`](sbrp_rl/README.md) and on the competition site.
